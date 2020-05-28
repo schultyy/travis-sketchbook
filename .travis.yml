@@ -2,7 +2,7 @@ language: ruby
 script: true
 jobs:
   include:
-    - language: ruby
+    - language: python
       env: EXTRA_TESTS=true
       only: type = api
       script: true
