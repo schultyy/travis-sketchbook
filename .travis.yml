@@ -1,9 +1,3 @@
 language: ruby
 env: NO_EXTRA_TESTS=true
 script: true
-jobs:
-  include:
-    - language: python
-      env: EXTRA_TESTS=true
-      if: type = api
-      script: true
