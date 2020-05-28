@@ -1,7 +1,6 @@
 language: ruby
 script: true
 env: NO_EXTRA_TESTS=true
-if: type != api
 jobs:
   include:
     - language: python
