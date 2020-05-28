@@ -6,3 +6,6 @@ jobs:
       env: EXTRA_TESTS=true
       only: type = api
       script: true
+    - language: ruby
+      env: NO_EXTRA_TESTS=true
+      script: true
