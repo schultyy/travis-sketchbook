@@ -9,3 +9,4 @@ jobs:
     - language: ruby
       env: NO_EXTRA_TESTS=true
       script: true
+      if: type != api
