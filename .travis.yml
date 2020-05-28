@@ -1,6 +1,6 @@
 language: ruby
-script: true
 env: NO_EXTRA_TESTS=true
+script: true
 jobs:
   include:
     - language: python
