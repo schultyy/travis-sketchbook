@@ -1,11 +1,2 @@
 dist: xenial
-jobs:
-  include:
-    - language: python
-      env: EXTRA_TESTS=true
-      if: type = api
-      script: true
-    - language: ruby
-      env: NO_EXTRA_TESTS=true
-      script: true
-      if: type != api
+script: lscpu
